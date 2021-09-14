@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Resources/name_font.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Scripts/PlayerTemplate.gd" type="Script" id=2]
+[ext_resource path="res://Resources/bluedino.tres" type="SpriteFrames" id=3]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 9.44052
+
+[node name="PlayerTemplate" type="KinematicBody2D"]
+script = ExtResource( 2 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = ExtResource( 3 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = -74.0291
+margin_top = -31.6765
+margin_right = 72.9709
+margin_bottom = -15.6765
+rect_pivot_offset = Vector2( -891.653, -55.7003 )
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": true
+}
