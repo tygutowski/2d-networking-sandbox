@@ -1,0 +1,116 @@
+{
+  "Sheet1": {
+    "Air": {
+      "tile id": 0,
+      "item id": 0
+    },
+    "Grass": {
+      "tile id": 1,
+      "item id": 3
+    },
+    "Dirt": {
+      "tile id": 2,
+      "item id": 1
+    },
+    "Stone": {
+      "tile id": 3,
+      "item id": 2
+    },
+    "Sand": {
+      "tile id": 4,
+      "item id": 4
+    },
+    "Stone Brick": {
+      "tile id": 5,
+      "item id": 63
+    },
+    "Glass": {
+      "tile id": 6,
+      "item id": 8
+    },
+    "Wooden Plank": {
+      "tile id": 7,
+      "item id": 62
+    },
+    "Blue Stone": {
+      "tile id": 8,
+      "item id": 57
+    },
+    "Green Stone": {
+      "tile id": 9,
+      "item id": 58
+    },
+    "Yellow Stone": {
+      "tile id": 10,
+      "item id": 59
+    },
+    "Bedrock": {
+      "tile id": 11,
+      "item id": 60
+    },
+    "Clay": {
+      "tile id": 12,
+      "item id": 61
+    },
+    "Aluminum Ore": {
+      "tile id": 13,
+      "item id": 29
+    },
+    "Chromium Ore": {
+      "tile id": 14,
+      "item id": 30
+    },
+    "Cobalt Ore": {
+      "tile id": 15,
+      "item id": 31
+    },
+    "Zinc Ore": {
+      "tile id": 16,
+      "item id": 36
+    },
+    "Copper Ore": {
+      "tile id": 17,
+      "item id": 32
+    },
+    "Gold Ore": {
+      "tile id": 18,
+      "item id": 33
+    },
+    "Iron Ore": {
+      "tile id": 19,
+      "item id": 34
+    },
+    "Lead Ore": {
+      "tile id": 20,
+      "item id": 35
+    },
+    "Sulfur Ore": {
+      "tile id": 21,
+      "item id": 43
+    },
+    "Titanium Ore": {
+      "tile id": 22,
+      "item id": 40
+    },
+    "Coal Ore": {
+      "tile id": 23,
+      "item id": 64
+    },
+    "Nickel Ore": {
+      "tile id": 24,
+      "item id": 37
+    },
+    "Niter": {
+      "tile id": 25,
+      "item id": 47
+    },
+    "Platinum Ore": {
+      "tile id": 26,
+      "item id": 38
+    },
+    "Silver Ore": {
+      "tile id": 27,
+      "item id": 39
+    }
+  }
+}

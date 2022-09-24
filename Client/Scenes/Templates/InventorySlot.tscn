@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Resources/InventoryFont.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Scripts/InventorySlot.gd" type="Script" id=2]
+[ext_resource path="res://Resources/default_stylebox.tres" type="StyleBox" id=3]
+
+[node name="I1" type="PanelContainer"]
+margin_right = 3.12978
+margin_bottom = 21.521
+rect_min_size = Vector2( 32, 32 )
+custom_styles/panel = ExtResource( 3 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="IconTexture" type="TextureRect" parent="."]
+margin_right = 32.0
+margin_bottom = 32.0
+stretch_mode = 4
+
+[node name="QuantityLabel" type="Label" parent="."]
+margin_right = 32.0
+margin_bottom = 32.0
+size_flags_vertical = 1
+custom_fonts/font = ExtResource( 1 )
+text = "1"
+valign = 2
+max_lines_visible = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
